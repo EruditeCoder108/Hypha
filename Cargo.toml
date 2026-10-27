@@ -1,0 +1,28 @@
+[workspace]
+members = [
+    "crates/relay-core",
+    "crates/relay-e2e",
+    "crates/relay-ffi",
+  "crates/relay-jni",
+  "crates/relay-message",
+  "crates/relay-router",
+    "crates/relay-secure",
+    "crates/relay-sim",
+    "crates/relay-wire",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "PolyForm-Noncommercial-1.0.0"
+repository = "https://github.com/EruditeCoder108/Hypha"
+rust-version = "1.85"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+all = "warn"
+pedantic = "warn"
+nursery = "warn"

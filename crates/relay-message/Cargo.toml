@@ -1,0 +1,14 @@
+[package]
+name = "relay-message"
+description = "Bounded authenticated application messages and receipts for Project Relay"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+relay-wire = { path = "../relay-wire" }
+
+[lints]
+workspace = true

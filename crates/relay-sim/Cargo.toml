@@ -1,0 +1,16 @@
+[package]
+name = "relay-sim"
+description = "Deterministic delay-tolerant network simulator for Project Relay"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+relay-core = { path = "../relay-core" }
+relay-router = { path = "../relay-router" }
+relay-wire = { path = "../relay-wire" }
+
+[lints]
+workspace = true

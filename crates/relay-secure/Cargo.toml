@@ -1,0 +1,21 @@
+[package]
+name = "relay-secure"
+description = "Bounded secure-session state machine for Project Relay"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+snow = { version = "=0.10.0", default-features = false, features = [
+    "default-resolver",
+    "use-chacha20poly1305",
+    "use-curve25519",
+    "use-getrandom",
+    "use-sha2",
+] }
+zeroize = { version = "=1.9.0", default-features = false }
+
+[lints]
+workspace = true

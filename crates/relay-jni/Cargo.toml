@@ -1,0 +1,26 @@
+[package]
+name = "relay-jni"
+description = "Panic-contained Android JNI bridge for the Project Relay secure core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+jni = { version = "=0.22.4", default-features = false }
+relay-e2e = { path = "../relay-e2e" }
+relay-message = { path = "../relay-message" }
+relay-secure = { path = "../relay-secure" }
+relay-wire = { path = "../relay-wire" }
+
+[lints.rust]
+unsafe_code = "allow"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
+nursery = "warn"

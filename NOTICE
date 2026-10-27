@@ -1,0 +1,30 @@
+Hypha (Project Relay)
+Required Notice: Copyright 2026 Hypha contributors
+
+Original Hypha software, documentation, and code-generated README artwork are
+provided under PolyForm Noncommercial License 1.0.0. See LICENSE.
+This is a source-available, noncommercial license, not an OSI open-source license.
+Commercial permissions require a separate grant from the copyright holder.
+
+Third-party material retains its own copyright and license. In particular:
+
+- tools/tests/fixtures/rfc9578_blind_rsa_vector_1.mjs includes RFC 9578
+  test-vector material under the IETF Trust's Revised BSD terms. The complete
+  attribution and conditions remain in that file.
+- tools/tests/fixtures/hypha_hat1_blind_issuance_vector_1.mjs credits
+  @cloudflare/privacypass-ts, Copyright 2023 Cloudflare, Inc., Apache-2.0,
+  which was used to generate interoperability data.
+- Hardware vendor datasheets, sample drivers, footprints, and other references
+  are not relicensed by Hypha. See hardware/hypha-usb-lora/NOTICE.md and the
+  notices in each reference or release package. KiCad-derived library material
+  retains its applicable library license and exception.
+- Rust, Flutter, Android, Arduino/ESP32, and other dependencies retain their own
+  licenses. A binary distribution must also include the applicable dependency
+  notices; this source-level summary is not a complete binary attribution bundle.
+- Existing visual/audio assets with third-party origins need their own provenance
+  review before public redistribution. The README does not reuse the notification
+  audio, vendor images, generated product mockups, or device screenshots.
+
+The Hypha name/mark and technology logos identify the project and its stack;
+their appearance does not imply third-party endorsement. This notice does not
+grant trademark rights beyond the terms of the applicable license.

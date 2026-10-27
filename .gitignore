@@ -1,0 +1,55 @@
+# Rust
+/target/
+/.toolchains/
+**/*.rs.bk
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+/apps/mobile/build/
+/apps/mobile/.metadata
+
+# Android
+**/.gradle/
+**/local.properties
+**/key.properties
+*.jks
+*.keystore
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local protocol traces and secrets
+/artifacts/
+/traces/private/
+*.key
+*.seed
+
+# Private device exports and local presentation work (already tracked files still
+# require a separate publication cleanup; ignoring does not remove Git history).
+/.diagnostics/
+/.codex-pptx-*
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+
+# Generated firmware and Python caches
+/hardware/esp32/**/build/
+__pycache__/
+*.pyc

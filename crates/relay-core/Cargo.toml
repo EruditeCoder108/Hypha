@@ -1,0 +1,16 @@
+[package]
+name = "relay-core"
+description = "Deterministic protocol state machine for Project Relay"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+relay-router = { path = "../relay-router" }
+relay-wire = { path = "../relay-wire" }
+sha2 = "=0.10.9"
+
+[lints]
+workspace = true

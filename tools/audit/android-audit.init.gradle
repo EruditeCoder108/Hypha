@@ -1,0 +1,10 @@
+// Adds audit-only invariant probes without changing normal Android source sets.
+gradle.projectsEvaluated {
+    def app = gradle.rootProject.findProject(':app')
+    // Gradle also applies init scripts to Flutter's included plugin build.
+    if (app == null) return
+    def auditDir = new File(gradle.startParameter.projectDir ?: gradle.rootProject.projectDir,
+        '../../../tools/audit/android').canonicalFile
+    if (!auditDir.isDirectory()) throw new GradleException("Missing audit directory: ${auditDir}")
+    app.android.sourceSets.getByName('test').java.srcDir(auditDir)
+}

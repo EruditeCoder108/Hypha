@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">Hypha — messages move, even offline</title>
+<desc id="desc">An illustrated encrypted message passes from sender to courier to recipient. A genuine receipt returns to the sender. This is a conceptual handoff, not a radio simulation.</desc>
+<rect x="1" y="1" width="1198" height="478" rx="22" fill="#f7faf8" stroke="#d9e5de"/>
+<g font-family="Segoe UI,DejaVu Sans,Arial,sans-serif">
+<circle cx="67" cy="55" r="4" fill="#166c48"/>
+<text x="81" y="59" fill="#166c48" font-size="13" font-weight="600" letter-spacing="1">OFFLINE BY DESIGN</text>
+<g fill="#16241f" font-size="58" font-weight="600"><text x="60" y="170">Messages move.</text><text x="60" y="238">Even offline.</text></g>
+<g fill="#697b72" font-size="19"><text x="64" y="298">Private conversations, carried by nearby</text><text x="64" y="326">phones and fixed courier nodes.</text></g>
+<text x="64" y="379" fill="#166c48" font-size="12" font-weight="600">NO INTERNET. NO CENTRAL MESSAGE SERVER.</text>
+<text x="827" y="56" text-anchor="middle" fill="#166c48" font-size="12" font-weight="600">ENCRYPT / CARRY / DELIVER / RECEIPT</text>
+<path d="M570 130L695 88" stroke="#d9e5de"/>
+<path d="M695 88L852 94" stroke="#d9e5de"/>
+<path d="M852 94L973 124" stroke="#d9e5de"/>
+<path d="M973 124L1100 154" stroke="#d9e5de"/>
+<path d="M1100 154L1140 300" stroke="#d9e5de"/>
+<path d="M1140 300L1034 359" stroke="#d9e5de"/>
+<path d="M1034 359L866 354" stroke="#d9e5de"/>
+<path d="M866 354L696 346" stroke="#d9e5de"/>
+<path d="M696 346L556 316" stroke="#d9e5de"/>
+<path d="M556 316L570 130" stroke="#d9e5de"/>
+<path d="M695 88L696 346" stroke="#d9e5de"/>
+<path d="M852 94L866 354" stroke="#d9e5de"/>
+<path d="M973 124L1034 359" stroke="#d9e5de"/>
+<path d="M570 130L852 94" stroke="#d9e5de"/>
+<path d="M866 354L556 316" stroke="#d9e5de"/>
+<path d="M570 130L625 239" stroke="#d9e5de"/>
+<path d="M696 346L625 239" stroke="#d9e5de"/>
+<path d="M852 94L827 239" stroke="#d9e5de"/>
+<path d="M866 354L827 239" stroke="#d9e5de"/>
+<path d="M1100 154L1030 239" stroke="#d9e5de"/>
+<path d="M1034 359L1030 239" stroke="#d9e5de"/>
+<circle cx="570" cy="130" r="3.5" fill="#a9c0b1"/>
+<circle cx="695" cy="88" r="3.5" fill="#a9c0b1"/>
+<circle cx="852" cy="94" r="3.5" fill="#a9c0b1"/>
+<circle cx="973" cy="124" r="3.5" fill="#a9c0b1"/>
+<circle cx="1100" cy="154" r="3.5" fill="#a9c0b1"/>
+<circle cx="1140" cy="300" r="3.5" fill="#a9c0b1"/>
+<circle cx="1034" cy="359" r="3.5" fill="#a9c0b1"/>
+<circle cx="866" cy="354" r="3.5" fill="#a9c0b1"/>
+<circle cx="696" cy="346" r="3.5" fill="#a9c0b1"/>
+<circle cx="556" cy="316" r="3.5" fill="#a9c0b1"/>
+<path d="M625 239Q724 130 827 239" fill="none" stroke="#9ab9a8" stroke-width="2"/>
+<path d="M827 239Q932 339 1030 239" fill="none" stroke="#9ab9a8" stroke-width="2"/>
+<circle cx="625" cy="239" r="24" fill="#f7faf8" stroke="#d0e2d7"/><circle cx="625" cy="239" r="13" fill="#16241f"/><circle cx="625" cy="239" r="3" fill="#f7faf8"/><rect x="566" y="279" width="118" height="26" rx="6" fill="#f7faf8"/><text x="625" y="295" text-anchor="middle" fill="#697b72" font-size="12" font-weight="600">SENDER</text>
+<circle cx="827" cy="239" r="24" fill="#f7faf8" stroke="#d0e2d7"/><circle cx="827" cy="239" r="13" fill="#16241f"/><circle cx="827" cy="239" r="3" fill="#f7faf8"/><rect x="768" y="279" width="118" height="26" rx="6" fill="#f7faf8"/><text x="827" y="295" text-anchor="middle" fill="#697b72" font-size="12" font-weight="600">COURIER</text>
+<circle cx="1030" cy="239" r="24" fill="#f7faf8" stroke="#d0e2d7"/><circle cx="1030" cy="239" r="13" fill="#16241f"/><circle cx="1030" cy="239" r="3" fill="#f7faf8"/><rect x="971" y="279" width="118" height="26" rx="6" fill="#f7faf8"/><text x="1030" y="295" text-anchor="middle" fill="#697b72" font-size="12" font-weight="600">RECIPIENT</text>
+<circle cx="725.0" cy="184.5" r="17" fill="#f7faf8"/><rect x="714.0" y="175.5" width="22" height="18" rx="4" fill="#83e3b6" stroke="#166c48"/><path d="M718.0 180.5L725.0 185.5L732.0 180.5" fill="none" stroke="#166c48"/>
+<text x="827" y="393" text-anchor="middle" fill="#697b72" font-size="15">Encrypted in transit. Opaque to couriers.</text><path d="M36 425H1164" stroke="#d9e5de"/>
+<text x="64" y="459" fill="#697b72" font-size="12" font-weight="600">01   DISCOVER NEARBY</text>
+<text x="415" y="459" fill="#697b72" font-size="12" font-weight="600">02   STORE + CARRY + FORWARD</text>
+<text x="859" y="459" fill="#697b72" font-size="12" font-weight="600">03   VERIFY DELIVERY</text>
+</g></svg>
